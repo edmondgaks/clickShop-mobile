@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\edmon\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Users\edmon\Documents\WINDOWS.X64_213000_db_home\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\edmon\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Users\edmon\AppData\Local\Android\Sdk;C:\Users\edmon\AppData\Local\Android\Sdk\platform-tools;C:\Users\edmon\AppData\Local\Android\Sdk\emulator;C:\Program Files\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin;C:\Users\edmon\AppData\Local\Microsoft\WindowsApps;C:\Users\edmon\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\edmon\AppData\Roaming\npm;C:\Users\edmon\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\edmon\AppData\Roaming\Composer\vendor\bin;C:\Program Files\PostgreSQL\15\bin;C:\xampp\mysql\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/expo: tunneling socket could not be established, cause=connect ECONNREFUSED ::1:80
+      at ClientRequest.onError (C:\Users\edmon\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:152376:17)
+      at Object.onceWrapper (node:events:628:26)
+      at ClientRequest.emit (node:events:513:28)
+      at Socket.socketErrorListener (node:_http_client:496:9)
+      at Socket.emit (node:events:513:28)
+      at emitErrorNT (node:internal/streams/destroy:151:8)
+      at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "clickshop",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~48.0.18",
+      "expo-status-bar": "~1.4.4",
+      "react": "18.2.0",
+      "react-native": "0.71.8"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
